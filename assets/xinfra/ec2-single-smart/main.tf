@@ -85,7 +85,7 @@ output "nginx_instance_public_ip" {
   description = "Public IP of the Nginx EC2 instance"
 }
 
-# 출력: SSH 접속에 사용할 Private Key
+# 출력: SSH 접속에 사용할 Private Key#
 output "ssh_private_key_pem" {
   value       = tls_private_key.example.private_key_pem
   description = "Private key for SSH access"
